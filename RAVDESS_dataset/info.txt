@@ -2,7 +2,7 @@ Taken from Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS)
 
 File naming convention
 
-Each of the 7356 RAVDESS files has a unique filename. The filename consists of a 7-part numerical identifier (e.g., 02-01-06-01-02-01-12.mp4). These identifiers define the stimulus characteristics: 
+Each of the 1440 (60 trials per actor x 24 actors) RAVDESS files has a unique filename. The filename consists of a 7-part numerical identifier (e.g., 02-01-06-01-02-01-12.mp4). These identifiers define the stimulus characteristics: 
 
 Filename identifiers 
 
