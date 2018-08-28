@@ -1,5 +1,5 @@
 # Emotion Recognition using Speech
-An IEEE NITK project for the year 2018-19
+### An IEEE NITK project for the year 2018-19
 This project aims to recognize emotions in a given sample of speech
 # Team Members
 
