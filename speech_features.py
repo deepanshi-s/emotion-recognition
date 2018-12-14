@@ -16,27 +16,22 @@ def zcr(frame,Fs):
 
 
 def teo(frame,Fs):
+    '''
+    Calculates the non linear energy of the signal.
+    '''
     size=len(frame)
     te=np.zeros(size-2)
     te[0]=0
     for i in range(1,size-1,1):
         te[i]=frame[i]*frame[i]-frame[i-1]*frame[i+1]
     return(te)
-    '''
-    calculates the non linear energy of the signal.
-    '''
 
 
 def energy(frame,Fs):
-    size=len(frame)
-    E=0
-    for i in range (0,size,1):
-        E=E+frame[i]*frame[i]
-    E1=np.log10(E)
-    return(E1)
     '''
-    calcultes the net energy of the signal.
+    Calcultes the net energy of the signal.
     '''
+    return(np.log10(np.sum(frame*frame)))
 
 
 
